@@ -61,7 +61,7 @@ By James R Parks (FRC Team 900)</Property>
 		<Item Name="Open" Type="Folder">
 			<Item Name="Z900_navX_Open_I2C.vi" Type="VI" URL="../IO/Open/Z900_navX_Open_I2C.vi"/>
 			<Item Name="Z900_navX_Open_Serial.vi" Type="VI" URL="../IO/Open/Z900_navX_Open_Serial.vi"/>
-			<Item Name="Z900_navX_Open_SPI.vi" Type="VI" URL="../IO/Open/Z900_navX_Open_SPI.vi"/>
+			<Item Name="Z900_navX_Open_SPI.vi" Type="VI" URL="/&lt;instrlib&gt;/NavX/IO/Open/Z900_navX_Open_SPI.vi"/>
 		</Item>
 		<Item Name="Z900_navX_Close.vi" Type="VI" URL="../IO/Z900_navX_Close.vi"/>
 		<Item Name="Z900_navX_Open.vi" Type="VI" URL="../IO/Z900_navX_Open.vi"/>
