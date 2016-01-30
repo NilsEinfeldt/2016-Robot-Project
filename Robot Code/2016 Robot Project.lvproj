@@ -135,9 +135,6 @@ AddOutputFilter chunkFilter
 		<Item Name="AutoTask" Type="Folder" URL="../AutoTask">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="NavX" Type="Folder" URL="../NavX">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
@@ -546,6 +543,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NT Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read String Array.vi"/>
 				<Item Name="NT Read Raw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Raw.vi"/>
 				<Item Name="Trace Results.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Framework/Trace Results.vi"/>
+<<<<<<< HEAD
 				<Item Name="WPI_SerialPortRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortRef.ctl"/>
 				<Item Name="WPI_I2CDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CDevRef.ctl"/>
 				<Item Name="WPI_SPIDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIDevRef.ctl"/>
@@ -652,6 +650,8 @@ AddOutputFilter chunkFilter
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="WPI_SerialPort_USB.ctl" Type="VI" URL="/&lt;instrlib&gt;/NI WPI/WPI_SerialPort_USB.ctl"/>
 				<Item Name="WPI_SerialPortOpen_USB.vi" Type="VI" URL="/&lt;instrlib&gt;/NI WPI/WPI_SerialPortOpen_USB.vi"/>
+=======
+>>>>>>> parent of 58833ea... Added NavX and populated/added the commands for the AutoTask Sub VI
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -668,8 +668,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="WPI_SerialPort_USB.ctl" Type="VI" URL="../NI WPI/WPI_SerialPort_USB.ctl"/>
-			<Item Name="WPI_SerialPortOpen_USB.vi" Type="VI" URL="../NI WPI/WPI_SerialPortOpen_USB.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
