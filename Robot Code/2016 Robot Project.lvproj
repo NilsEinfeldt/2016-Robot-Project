@@ -147,6 +147,7 @@ AddOutputFilter chunkFilter
 		<Item Name="TeleopDrive.ctl" Type="VI" URL="../AutoTask SubVI/TeleopDrive.ctl"/>
 		<Item Name="YawFromStart.vi" Type="VI" URL="../AutoTask SubVI/YawFromStart.vi"/>
 		<Item Name="PID360.vi" Type="VI" URL="../AutoTask SubVI/PID360.vi"/>
+		<Item Name="AutoTurnSubVi.vi" Type="VI" URL="../AutoTask SubVI/AutoTurnSubVi.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
