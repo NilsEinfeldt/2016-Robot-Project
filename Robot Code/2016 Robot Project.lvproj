@@ -720,6 +720,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_DigitalInputToDigitalModule.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputToDigitalModule.vi"/>
 				<Item Name="WPI_DigitalModuleGetDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleGetDIO.vi"/>
 				<Item Name="FPGA_DIOReadDI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadDI.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -736,6 +737,17 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Shooter Simulator Get Bottom Limit Switch.vi" Type="VI" URL="../2158 Shooter Simulator/Shooter Simulator Get Bottom Limit Switch.vi"/>
+			<Item Name="Shooter Simulator Globals.vi" Type="VI" URL="../2158 Shooter Simulator/Shooter Simulator Globals.vi"/>
+			<Item Name="Shooter Simulator Sensor Data.ctl" Type="VI" URL="../2158 Shooter Simulator/Shooter Simulator Sensor Data.ctl"/>
+			<Item Name="Shooter Simulator Reset Angle Encoder.vi" Type="VI" URL="../2158 Shooter Simulator/Shooter Simulator Reset Angle Encoder.vi"/>
+			<Item Name="Shooter Simulator Set Angle Motor.vi" Type="VI" URL="../2158 Shooter Simulator/Shooter Simulator Set Angle Motor.vi"/>
+			<Item Name="Shooter Simulator Get Left Encoder.vi" Type="VI" URL="../2158 Shooter Simulator/Shooter Simulator Get Left Encoder.vi"/>
+			<Item Name="Shooter Simulator Get Right Encoder.vi" Type="VI" URL="../2158 Shooter Simulator/Shooter Simulator Get Right Encoder.vi"/>
+			<Item Name="Shooter Simulator Set Left Motor.vi" Type="VI" URL="../2158 Shooter Simulator/Shooter Simulator Set Left Motor.vi"/>
+			<Item Name="Shooter Simulator Set RightMotor.vi" Type="VI" URL="../2158 Shooter Simulator/Shooter Simulator Set RightMotor.vi"/>
+			<Item Name="Shooter Simulator Get Angle Encoder.vi" Type="VI" URL="../2158 Shooter Simulator/Shooter Simulator Get Angle Encoder.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
